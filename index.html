@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="title">Profile Page</div>
+
+    <div class="details-wrap">
+
+      <div class="details-left">
+        <div class="shadow">
+          <img src="img/user2.jpg" alt="Image" class="shadow-img" />
+          <img src="./img/camicon.png" alt="" class="shadow-icon" />
+        </div>
+      </div>
+
+      <div class="details-right">
+
+        <div class="content">
+
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <label class="details">Full Name</label>
+                <input type="text" placeholder="Enter your name" class="upload-doc-one" required />
+              </div>
+              <div class="input-box">
+                <label class="details">Email</label>
+                <input type="text" placeholder="Enter your email" class="upload-doc-one" required />
+              </div>
+              <div class="input-box">
+                <label class="details">Phone Number</label>
+                <input type="text" placeholder="Enter your number" class="upload-doc-one" required />
+              </div>
+              <div class="input-box">
+                <label for="taxable-income" class="details">Taxable Income</label>
+                <input type="number" placeholder="Enter your taxable-income" class="upload-doc-one" required />
+              </div>
+              <div class="input-box">
+                <label for="adhar" class="details">Aadhar Card</label>
+                <input type="file" id="file-upload" name="file-upload" class="upload-doc" multiple />
+              </div>
+              <div class="input-box">
+                <label for="pan" class="details">Pan</label>
+                <input type="file" id="file-upload" name="file-upload" class="upload-doc" multiple />
+              </div>
+              <div class="input-box">
+                <label for="bank-statement" class="details">Bank Statement</label>
+                <input type="file" id="file-upload" name="file-upload" class="upload-doc" multiple />
+              </div>
+              <div class="input-box">
+                <label for="form-sec" class="details">Form 16</label>
+                <input type="file" id="file-upload" name="file-upload" class="upload-doc" multiple />
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        <div class="button">
+          <input class="submit" type="submit" value="Submit" />
+          <input class="cancel" type="submit" value="Cancel" />
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
